@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", serif;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+    background-color: #faf9f5;
+    color: #1e201d;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-editorial {
+  font-family: var(--font-serif);
+}
